@@ -1,0 +1,17 @@
+//here is my solution. It works with positive and negative numbers.
+//Hope this helps
+ 
+    function findDigitAmount(num) {
+
+    var positiveNumber = Math.sign(num) * num;
+	var lengthNumber = positiveNumber.toString();
+
+	  for(var i = 0; i < lengthNumber.length +1; i++){
+		  var number = i;
+	   }
+	return number;
+    }
+    
+   
+ (findDigitAmount(-96456431);    // output: 8
+ (findDigitAmount(1524):         // output: 4
