@@ -5,11 +5,8 @@
 
     var positiveNumber = Math.sign(num) * num;
 	var lengthNumber = positiveNumber.toString();
-
-	  for(var i = 0; i < lengthNumber.length +1; i++){
-		  var number = i;
-	   }
-	return number;
+	
+	return lengthNumber.length;
     }
     
    
